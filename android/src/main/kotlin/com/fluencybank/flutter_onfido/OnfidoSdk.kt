@@ -9,6 +9,9 @@ import com.onfido.android.sdk.capture.ui.options.CaptureScreenStep
 import com.onfido.android.sdk.capture.ui.options.FlowStep
 import com.onfido.android.sdk.capture.utils.CountryCode
 import io.flutter.plugin.common.MethodChannel
+import java.util.*
+import kotlin.collections.ArrayList
+import kotlin.collections.HashMap
 
 
 class OnfidoSdk(var currentFlutterResult: MethodChannel.Result?, var activityListener: OnfidoSdkActivityEventListener, val client: Onfido, var currentActivity: Activity?) {
@@ -47,6 +50,7 @@ class OnfidoSdk(var currentFlutterResult: MethodChannel.Result?, var activityLis
             try {
                 val onfidoConfig = OnfidoConfig.builder(currentActivity!!)
                         .withSDKToken(sdkToken)
+                        .withLocale(Locale("pl"))
                         .withCustomFlow(flowStepsWithOptions)
                         .build()
                 client.startActivityForResult(currentActivity!!, 1, onfidoConfig)
