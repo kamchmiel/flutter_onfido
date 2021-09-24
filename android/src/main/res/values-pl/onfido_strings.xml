@@ -15,7 +15,7 @@
     <string name="onfido_doc_confirmation_body_folded_doc">Make sure your document is fully unfolded and the photo is clear</string>
 
     <!-- Locale identifier -->
-    <string name="onfido_locale">en</string>
+    <string name="onfido_locale">pl</string>
 
     <!-- General -->
     <string name="onfido_outro_title">Thank you</string>
@@ -301,7 +301,7 @@
     <string name="onfido_app_title_video_confirmation">Verify your identity</string>
     <string name="onfido_app_title_doc_video_confirmation">Verify your identity</string>
     <string name="onfido_welcome_button_primary_doc">WYBIERZ DOKUMENT</string>
-    <string name="onfido_welcome_button_primary">Start</string>
+    <string name="onfido_welcome_button_primary">Rozpocznij</string>
     <string name="onfido_welcome_list_header_doc_video">Use your device to record:</string>
 
     <string name="onfido_video_capture_frame_success_accessibility">Face detected. Recording has started.</string>
