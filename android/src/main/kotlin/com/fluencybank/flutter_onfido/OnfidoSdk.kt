@@ -50,7 +50,6 @@ class OnfidoSdk(var currentFlutterResult: MethodChannel.Result?, var activityLis
             try {
                 val onfidoConfig = OnfidoConfig.builder(currentActivity!!)
                         .withSDKToken(sdkToken)
-                        .withLocale(Locale("pl"))
                         .withCustomFlow(flowStepsWithOptions)
                         .build()
                 client.startActivityForResult(currentActivity!!, 1, onfidoConfig)

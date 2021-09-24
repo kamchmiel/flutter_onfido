@@ -69,7 +69,10 @@ public func buildOnfidoConfig(config:NSDictionary, appearance: Appearance) throw
   var onfidoConfig = OnfidoConfig.builder()
     .withSDKToken(sdkToken)
     .withAppearance(appearance)
- 
+
+  if(Locale.current.languageCode == "pl") {
+    onfidoConfig.withCustomLocalization(andTableName: "Onfido-PL-iOS")
+  }
 
   if flowSteps?["welcome"] as? Bool == true {
     onfidoConfig = onfidoConfig.withWelcomeStep()
