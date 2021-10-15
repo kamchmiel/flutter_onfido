@@ -2,7 +2,7 @@
 
     <!-- Document Capture -->
     <string name="onfido_app_title_doc_capture_id_it">Włoski dowód osobisty</string>
-    <string name="onfido_app_title_doc_capture_id_za">Południowoafrykański dowód osobist</string>
+    <string name="onfido_app_title_doc_capture_id_za">Południowoafrykański dowód osobisty</string>
     <string name="onfido_app_title_doc_capture_license_fr">Francuskie prawo jazdy</string>
     <string name="onfido_doc_capture_prompt_button_paper">Papierowy dokument</string>
     <string name="onfido_doc_capture_prompt_button_card">Plastikowa karta</string>
@@ -141,7 +141,7 @@
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Zezwól na dostęp do kamery i mikrofonu</string>
     <string name="onfido_permission_subtitle_both">Musisz zezwolić na dostęp do kamery i mikrofonu aby kontynuować</string>
-    <string name="onfido_permission_recovery_title_both">Odmowa uprawnień do aparatu i mikrofonu/string>
+    <string name="onfido_permission_recovery_title_both">Odmowa uprawnień do aparatu i mikrofonu</string>
     <string name="onfido_permission_recovery_extra_instructions_both">Przejdź do ustawień urządzenia, aby odzyskać dostęp %1$s do aparatu i mikrofonu</string>
     <string name="onfido_permission_recovery_body_cam">Stuknij w „Uprawnienia”, aby przyznać dostęp do kamery</string>
     <string name="onfido_permission_recovery_body_both">Stuknij w „Uprawnienia”, aby przyznać dostęp do kamery i mikrofonu</string>
